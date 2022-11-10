@@ -20,7 +20,8 @@ const PlayerControls = ({songs}) => {
       <div className={styles.flexCenter}>
         <div className={styles.albumCoverContainer}>
           <Image
-            src='https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png'
+            // src='https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png'
+            src='https://img.freepik.com/free-vector/colorful-music-speaker-with-sound-notes_1017-32862.jpg?w=1060&t=st=1665226349~exp=1665226949~hmac=699c169d1a3f98cbd4d9f3ecd097a7fb49d0f5ac7ad3d19b2290786fc397029f'
             // src={currentSong.cover}
             className={styles.coverPhoto}
             height={200}

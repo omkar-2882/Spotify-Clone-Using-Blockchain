@@ -37,7 +37,7 @@ const Nav = () => {
       </div>
 
       <div className='mt-5 leading-8 flex flex-col gap-[10px]'>
-        <p className='text-sm'>GHOST SONGS</p>
+        <p className='text-sm'>POP SONGS</p>
         <p className={styles.playlistName}>
           CarPlay Vol.2
         </p>

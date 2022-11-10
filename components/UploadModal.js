@@ -8,6 +8,7 @@ const UploadModal = ({
   setTitle,
   setMusicUrl,
   setShowUploadMusic,
+  songs,
 }) => {
   const toBase64 = file =>
     new Promise((resolve, reject) => {
@@ -53,7 +54,7 @@ const UploadModal = ({
   return (
     <div className={style.wrapper}>
       <div className={style.title}>Upload New Music</div>
-      <input type='file' id='music-file' name='file' />
+      {/* <input type='file' id='music-file' name='file' />
       <div className={style.modalButtons}>
         <button
           onClick={uploadClicked}
@@ -61,7 +62,7 @@ const UploadModal = ({
         >
           Upload
         </button>
-      </div>
+      </div> */}
 
       <div className={style.inputField}>
         <div className={style.inputTitle}>Title</div>

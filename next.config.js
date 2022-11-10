@@ -9,7 +9,11 @@ const nextConfig = {
       'kajabi-storefronts-production.kajabi-cdn.com',
       'upload.wikimedia.org',
       'i.ytimg.com',
-      'angartwork.akamaized.net'
+      'angartwork.akamaized.net',
+      'i.redd.it',
+      'img.freepik.com',
+      'cdnb.artstation.com',
+      'i.pinimg.com',
     ],
   },
 }

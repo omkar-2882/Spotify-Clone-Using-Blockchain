@@ -39,7 +39,7 @@ const Header = ({ setShowUploadMusic }) => {
             <div className={style.profileAvatarContainer}>
               <img alt='' src='assets/avatar.jpg' className='rounded-full' />
             </div>
-            <p>Your Name</p>
+            <p>Omkar</p>
           </div>
         </div>
       </div>
@@ -47,14 +47,15 @@ const Header = ({ setShowUploadMusic }) => {
       <div className={style.playlistTextContent}>
         <Image
           alt=''
-          src='https://angartwork.akamaized.net/webp/?id=150949021&size=296'
+          // src='https://angartwork.akamaized.net/webp/?id=150949021&size=296'
+          src='https://i.redd.it/0ls5x7mm8r011.jpg'
           width={220}
           height={220}
         />
 
         <div className='ml-5'>
           <div>ALBUM</div>
-          <div className={style.title}>Your Album</div>
+          <div className={style.title}>POP SONGS</div>
           <div className='flex items-center mt-5'>
             <div className={style.profileAvatarContainer}>
               <img alt='' src='assets/avatar.jpg' className='rounded-full' />

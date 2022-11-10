@@ -43,6 +43,7 @@ const HomePage = () => {
             musicUrl={musicUrl}
             setMusicUrl={setMusicUrl}
             newMusic={newMusic}
+            songs={songs}
           />
         )}
       </div>
